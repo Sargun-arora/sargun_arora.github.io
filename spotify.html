@@ -1,20 +1,60 @@
 <html>
 <head>
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 <title>Spotify</title>
 </head>
 
 <style>
-body {background-color: green;}
-h1 {color: #00F748;}
-p {color: #6BF700;}
+body {
+    background-color: green;
+    margin: 20px;
+    font-family: Arial;
+}
+
+h1 {
+    color: #00F748;
+}
+
+p {
+    color: #6BF700;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.logo {
+    width: 750px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+}
 </style>
 
 <body>
 <h1>About Spotify<u><b></h1>
 
-<hr size="4" width="1460" align="left" color="#00F788">
+<hr size="4" color="#00F788">
 
-<img src="spotify logo.jpg" width="750" height="460" alt="Spotify Logo">
+<img src="spotify logo.jpg" class="logo" alt="Spotify Logo">
 
 <p>Spotify[a] is a Swedish freemium music streaming service provider founded in April 2006 by Daniel Ek and Martin Lorentzon.[9] As of March 2026, it was one of the largest providers of music streaming services, with over 777 million monthly active users comprising 300 million paying subscribers.[10] Spotify is listed on the New York Stock Exchange in the form of American depositary receipts.<b></p>
 
